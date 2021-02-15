@@ -1,0 +1,46 @@
+body{
+	text-align: center;
+	font-family: arial;
+	background-image: url(imagens/fundo2.jpg);
+	background-size: cover;
+	color: #474747;
+}
+
+h1{
+	font-size: 70px;
+	padding-top: 150px;
+	text-shadow: 2px 2px gray;
+	margin-bottom: 15px;
+}
+
+p{
+	font-size: 25px;
+}
+
+.botao{
+	text-decoration: none;
+	background-color: #474747;
+	color: white;
+	font-size: 20px;
+	padding: 10px 15px 10px 15px;
+	border-radius: 4px;
+}
+
+.botao:hover{
+	background-color: #b6bbc0;
+}
+
+.lista{
+	list-style: none;
+	padding-left: 0;
+	margin-top:50px;
+}
+
+.lista li {
+	display: inline;
+}
+
+.lista a {
+	color: #474747;
+	font-size: 30px;
+}
